@@ -119,7 +119,7 @@ public class ZookeeperK8sService extends AbstractService {
     private Map<String, Object> getZookeeperResources() {
         return ImmutableMap.<String, Object>builder()
                            .put("limits", ImmutableMap.builder()
-                                                      .put("cpu", "400m")
+                                                      .put("cpu", "800m")
                                                       .put("memory", "2Gi")
                                                       .build())
                            .put("requests", ImmutableMap.builder()
